@@ -1,0 +1,24 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+details {
+    width: 200px;
+    background: black;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+summary {
+    font-size: 16px;
+}
+
+details[open] summary {
+    margin-bottom: 10px;
+}
